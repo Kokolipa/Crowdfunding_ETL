@@ -3,7 +3,7 @@
 ### Project description:
 
 ### ERD Image
-![erd](https://github.com/Kokolipa/Crowdfunding_ETL/blob/etl/Crowdfunding_ETL/ERD_and_schema/QuickDBD-Free%20Diagram.png)
+![erd](https://github.com/Kokolipa/Crowdfunding_ETL/blob/etl/Crowdfunding_ETL/ERD_and_schema/ERD.png)
 
 #### Folder structure
 ``` yml
