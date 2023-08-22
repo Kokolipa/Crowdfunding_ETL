@@ -1,2 +1,5 @@
 # Ignore 
 .DS_Store
+
+# Ignore files
+postgre_pass.py
