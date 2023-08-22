@@ -1,6 +1,6 @@
 # ETL project
 ### Project description:
-Building an ETL pipeline using Python, Pandas, and other libraries and dictrionary methods
+Building an ETL pipeline using Python, Pandas, and other libraries and dictrionary methods.
 
 ### Data pipeline
 **Extract:**
