@@ -1,8 +1,8 @@
-﻿-- Drop table if exists
-DROP TABLE IF EXISTS category;
+﻿DROP TABLE IF EXISTS category;
 DROP TABLE IF EXISTS subcategory;
 DROP TABLE IF EXISTS contacts;
 DROP TABLE IF EXISTS campaign;
+
 
 CREATE TABLE "category" (
     "category_id" VARCHAR   NOT NULL,
@@ -35,8 +35,8 @@ CREATE TABLE "campaign" (
     "contact_id" INT   NOT NULL,
     "company_name" VARCHAR   NOT NULL,
     "description" VARCHAR   NOT NULL,
-    "goal" INT   NOT NULL,
-    "pledged" INT   NOT NULL,
+    "goal" DOUBLE PRECISION NOT NULL,
+    "pledged" DOUBLE PRECISION NOT NULL,
     "outcome" VARCHAR   NOT NULL,
     "backers_count" INT   NOT NULL,
     "country" VARCHAR(5)   NOT NULL,
