@@ -1,10 +1,10 @@
-﻿-- Dropping tables if exists
+﻿-- Drop table if exists
 DROP TABLE IF EXISTS category;
 DROP TABLE IF EXISTS subcategory;
 DROP TABLE IF EXISTS contacts;
 DROP TABLE IF EXISTS campaign;
 
-CREATE TABLE category (
+CREATE TABLE "category" (
     "category_id" VARCHAR   NOT NULL,
     "category" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_category" PRIMARY KEY (
@@ -12,7 +12,7 @@ CREATE TABLE category (
      )
 );
 
-CREATE TABLE subcategory (
+CREATE TABLE "subcategory" (
     "subcategory_id" VARCHAR   NOT NULL,
     "subcategory" VARCHAR(30)   NOT NULL,
     CONSTRAINT "pk_subcategory" PRIMARY KEY (
@@ -20,17 +20,17 @@ CREATE TABLE subcategory (
      )
 );
 
-CREATE TABLE contacts (
+CREATE TABLE "contacts" (
     "contact_id" INT   NOT NULL,
     "first_name" VARCHAR(20)   NOT NULL,
-    "lastname" VARCHAR(20)   NOT NULL,
+    "last_name" VARCHAR(20)   NOT NULL,
     "email" VARCHAR(50)   NOT NULL,
     CONSTRAINT "pk_contacts" PRIMARY KEY (
         "contact_id"
      )
 );
 
-CREATE TABLE campaign (
+CREATE TABLE "campaign" (
     "cf_id" INT   NOT NULL,
     "contact_id" INT   NOT NULL,
     "company_name" VARCHAR   NOT NULL,
@@ -40,6 +40,7 @@ CREATE TABLE campaign (
     "outcome" VARCHAR   NOT NULL,
     "backers_count" INT   NOT NULL,
     "country" VARCHAR(5)   NOT NULL,
+    "currency" VARCHAR(3)   NOT NULL,
     "launched_date" DATE   NOT NULL,
     "end_date" DATE   NOT NULL,
     "category_id" VARCHAR   NOT NULL,
