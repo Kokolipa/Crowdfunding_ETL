@@ -36,6 +36,11 @@ Building an ETL pipeline using Python, Pandas, and other libraries and dictriona
 │   |   |   ├── contacts.csv
 │   |   |   ├── subcategory.csv
 │   |   ├── ERD_and_schema      
+│   |   |   ├── Images
+│   |   |   |   ├── campaign_out.png
+│   |   |   |   ├── category_out.png
+│   |   |   |   ├── contacts_out.png
+│   |   |   |   ├── subcategory_out.png
 │   |   |   ├── ERD.png
 │   |   |   ├── crowdfunding_schema.sql     
 │   |   ├── Starter_Files      
@@ -43,6 +48,7 @@ Building an ETL pipeline using Python, Pandas, and other libraries and dictriona
 │   |   |   |   ├── contacts.xlsx
 │   |   |   |   ├── crowdfunding.xlsx
 │   |   |   ├── ETL_Mini_Project_Gal_Beeri.ipynb
+│   |   |   ├── ETL_mini_project_manasa.ipynb  
 │   |   |   ├── ETL_Mini_Project_YHara.ipynb      
 |___.gitignore               
 |___README.md
