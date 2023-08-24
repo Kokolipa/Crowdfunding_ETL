@@ -21,6 +21,7 @@ Building an ETL pipeline using Python, Pandas, and other libraries and dictriona
 2. Numpy
 3. json
 4. sqlalchemy
+5. Regex - re
 
 ### ERD Image
 ![erd](https://github.com/Kokolipa/Crowdfunding_ETL/blob/etl/Crowdfunding_ETL/ERD_and_schema/ERD.png)
