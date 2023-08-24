@@ -1,5 +1,6 @@
 # Ignore 
 .DS_Store
 
-# Ignore files
+# Ignore files & folders
 postgre_pass.py
+__pycache__
